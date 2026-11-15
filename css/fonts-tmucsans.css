@@ -1,0 +1,70 @@
+@font-face {
+    font-family: 'TMUCSans';
+    font-style: normal;
+    font-weight: 250 1000;
+    src: url('../fonts/TMUCSansVF.woff2') format('woff2-variations'),
+         url('../fonts/TMUCSansVF.woff') format('woff-variations');
+}
+@font-face {
+    font-family: 'TMUCSans';
+    font-style: normal;
+    font-weight: 300;
+    src: url('../fonts/TMUCSans-Light.eot');
+    src: url('../fonts/TMUCSans-Light.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/TMUCSans-Light.woff2') format('woff2'),
+         url('../fonts/TMUCSans-Light.woff') format('woff');
+}
+@font-face {
+    font-family: 'TMUCSans';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/TMUCSans-Regular.eot');
+    src: url('../fonts/TMUCSans-Regular.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/TMUCSans-Regular.woff2') format('woff2'),
+         url('../fonts/TMUCSans-Regular.woff') format('woff');
+}
+@font-face {
+    font-family: 'TMUCSans';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/TMUCSans-Medium.eot');
+    src: url('../fonts/TMUCSans-Medium.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/TMUCSans-Medium.woff2') format('woff2'),
+         url('../fonts/TMUCSans-Medium.woff') format('woff');
+}
+@font-face {
+    font-family: 'TMUCSans';
+    font-style: normal;
+    font-weight: 600;
+    src: url('../fonts/TMUCSans-Semibold.eot');
+    src: url('../fonts/TMUCSans-Semibold.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/TMUCSans-Semibold.woff2') format('woff2'),
+         url('../fonts/TMUCSans-Semibold.woff') format('woff');
+}
+@font-face {
+    font-family: 'TMUCSans';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/TMUCSans-Bold.eot');
+    src: url('../fonts/TMUCSans-Bold.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/TMUCSans-Bold.woff2') format('woff2'),
+         url('../fonts/TMUCSans-Bold.woff') format('woff');
+}
+@font-face {
+    font-family: 'TMUCSans';
+    font-style: normal;
+    font-weight: 800;
+    src: url('../fonts/TMUCSans-ExtraBold.eot');
+    src: url('../fonts/TMUCSans-ExtraBold.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/TMUCSans-ExtraBold.woff2') format('woff2'),
+         url('../fonts/TMUCSans-ExtraBold.woff') format('woff');
+}
+@font-face {
+    font-family: 'TMUCSans';
+    font-style: normal;
+    font-weight: 900;
+    src: url('../fonts/TMUCSans-Black.eot');
+    src: url('../fonts/TMUCSans-Black.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/TMUCSans-Black.woff2') format('woff2'),
+         url('../fonts/TMUCSans-Black.woff') format('woff');
+}
