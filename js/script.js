@@ -1,4 +1,20 @@
+function syncMobileViewportHeight() {
+    if (window.innerWidth <= 959) {
+        var vh = window.visualViewport ? window.visualViewport.height : window.innerHeight;
+        document.documentElement.style.setProperty('--app-height', Math.round(vh) + 'px');
+    } else {
+        document.documentElement.style.removeProperty('--app-height');
+    }
+}
+syncMobileViewportHeight();
+window.addEventListener('resize', syncMobileViewportHeight);
+window.addEventListener('orientationchange', syncMobileViewportHeight);
+if (window.visualViewport) {
+    window.visualViewport.addEventListener('resize', syncMobileViewportHeight);
+}
+
 $(document).ready(function() {
+    syncMobileViewportHeight();
     var sections = $("#s1, #s2, #s3, #s4");
     sections.wrap("<div class='section'></div>");
     $(".section").wrapAll("<div id='fullpage'></div>");
@@ -6,7 +22,8 @@ $(document).ready(function() {
     window.page = $('#fullpage').fullpage({
         css3: true,
         scrollBar: true,
-        keyboardScrolling: true
+        keyboardScrolling: true,
+        bigSectionsDestination: 'top'
     });
 });
 
