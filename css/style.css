@@ -59,9 +59,14 @@ b, strong {
 .canvas--white {
     background-color: #ffffff;
 }
-@media screen and (max-width: 479px) {
+@media screen and (max-width: 959px) {
     .canvas {
-        min-height: 650px;
+        height: var(--app-height, 100dvh);
+        min-height: 0;
+    }
+    .fp-section,
+    .fp-tableCell {
+        height: var(--app-height, 100dvh) !important;
     }
 }
 .el {
